@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Soma Java</title>
+    </head>
+    <Body>
+    
+            <label for="text">N1</label>
+            <input type="number" id="N1"><br>
+            <label for="text">N2</label>
+            <input type="number" id="N2"><br>
+            <button id="Bot" onclick="Somar()">Somar</button>
+        
+
+        <script>
+            function Somar(){
+                let N1=Number(document.getElementById("N1").value);
+                let N2=Number(document.getElementById("N2").value);
+                let Soma=N1+N2;
+
+                alert("A soma é:" + Soma);
+            }
+        </script>
+    </Body>
+</html>
