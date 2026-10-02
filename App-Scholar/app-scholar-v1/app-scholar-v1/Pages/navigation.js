@@ -1,0 +1,10 @@
+<Stack.Navigator>
+<Stack.Screen
+name="Home"
+component={HomeScreen}
+/>
+<Stack.Screen
+name="Sobre"
+component={SobreScreen}
+/>
+</Stack.Navigator>
